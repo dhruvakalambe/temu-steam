@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Help</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="about.html">Support</a></li>
+            </ul>
+            <div class="user">
+                <a href="signin.html">Sign In</a> | <a href="signup.html">Join</a>
+            </div>
+            <!-- Light/Dark Mode Toggle (Moved inside a div for better spacing) -->
+            <div class="toggle-container">
+                <label class="switch">
+                    <input type="checkbox" id="mode-toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <section class="media-section">
+        <h2>Explore Our Media</h2>
+        <br>
+        <div class="video-container">
+            <h3>Watch Our Video</h3>
+            <iframe width="640" height="480" src="https://www.youtube.com/embed/V2ZdTGbixzI" title="Real-Time Strategy Fest: Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="audio-container">
+            <h3>Listen to Our Audio</h3>
+            <br>
+            <audio controls autoplay>
+                <source src="assets/audio/sample.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <br>
+        <div class="map-container">
+            <h3>Find Us on the Map</h3>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.383742008915!2d-2.8828390232778025!3d53.19303377224515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487add759ef42fa7%3A0x94a595ba3b2bacd0!2sTeam%20Steam%20Headquarters!5e0!3m2!1sen!2sin!4v1738611996428!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&reg;2025 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.
+            VAT included in all prices where applicable.</p>
+    </footer>
+</body>
+</html>
